@@ -2,7 +2,7 @@ name: build
 
 on:
   schedule:
-    - cron:  '0 4/12 * * *' # Runs at 04:00 and 16:00 UTC every day
+    - cron:  '0 16 * * *' # Runs at 16:00 UTC every day
   push:
     branches:
       - master
